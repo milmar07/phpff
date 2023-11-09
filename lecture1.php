@@ -24,6 +24,15 @@
 
 
         #Variable always start with $
+
+        $txt = "Hello world!";
+        echo "I love $txt!<br>";
+        echo "I love " . $txt . "!<br>";
+
+        $a = 5;
+        $b = 10;
+
+        echo $a + $b ."<br>";
     ?>
 </body>
 </html>
