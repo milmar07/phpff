@@ -70,8 +70,69 @@
           myTest2();
           myTest2();
 
+        # PHP DATA TYPES
 
-          
+        #String
+        $x = "Hello world!";
+        $y = 'Hello world!';
+        echo $x;
+        echo "<br>";
+        echo $y;
+        echo "<br>";
+
+        #Integer
+        $x = 5985;
+        var_dump($x);
+        echo "<br>";
+
+        #Float
+
+        $x = 10.365;
+        var_dump($x);
+        echo "<br>";
+
+        #Boolean
+        $t = true;
+        $f = false;
+
+        var_dump($t);
+        echo "<br>";
+        
+        var_dump($f);
+        echo "<br>";
+
+
+        #PHP OBJECTS **********************
+        class Car {
+            public $color;
+            public $model;
+            public function __construct($color, $model) {
+              $this->color = $color;
+              $this->model = $model;
+            }
+            public function meesage() {
+                return "My car is a " . $this->color . " " . $this->model . "!";
+            }            
+        }
+
+        $myCar = new Car("black", "Volvo");
+        echo $myCar -> meesage();
+        echo "<br>";
+        $myCar = new Car("red", "Toyota");
+        echo $myCar -> meesage();
+        echo "<br>";
+
+        #PHP NULL VALUE
+        $x = "Hello world!";
+        $x = null;
+        var_dump($x);
+        echo "<br>";
+
+
+        #STRING FUNCTIONS *******************
+        echo strlen("Hello world!"); // outputs 12
+        echo "<br>";
+        
     ?>
 </body>
 </html>
