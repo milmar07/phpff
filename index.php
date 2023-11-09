@@ -9,7 +9,7 @@
     <h1>Welcome to PHP Lectures</h1>
     <p>Select a lecture from below:</p>
     <ul>
-        <li><a href="lecture1.php">Lecture 1</a></li>
+        <li><a href="lecture1.php">PHP Tutorial Basic</a></li>
         <li><a href="lecture2.php">Lecture 2</a></li>
         <!-- Add more lectures as you create them -->
     </ul>
